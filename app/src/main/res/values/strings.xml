@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Medical Testing Center</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="add_new_patient">Add New Patient</string>
+    <string name="nurse_id">Nurse ID</string>
+    <string name="save_patient">Save Patient</string>
+    <string name="room">Room</string>
+    <string name="last_name">Last Name</string>
+    <string name="patient_id">Patient ID</string>
+    <string name="bpm">BPM:</string>
+    <string name="temprature">Temprature:</string>
+    <string name="body_temprature">Body Temprature:</string>
+    <string name="add_test">Add Test</string>
+    <string name="registration">Registration</string>
+    <string name="bpl">BPL:</string>
+    <string name="auscutation">Auscutation:</string>
+    <string name="body_inspection">Body Inspection</string>
+    <string name="patients">Patients</string>
+    <string name="tests">Tests</string>
+    <string name="homepage">Homepage</string>
+    <string name="welcome_message">Welcome to Seattle Grace patient system management!</string>
+     <string name="logging_message">To start logging and managing patients please login into your account.</string>
+
+    <string-array name="departments">
+        <item>Pediatric</item>
+        <item>NICU</item>
+        <item>PICU</item>
+        <item>Labor and Delivery</item>
+        <item>Infection Control</item>
+        <item>Emergency Room</item>
+        <item>Operating Room</item>
+        <item>Oncology</item>
+        <item>Cardiovascular</item>
+        <item>Psychiatric</item>
+    </string-array>
+</resources>

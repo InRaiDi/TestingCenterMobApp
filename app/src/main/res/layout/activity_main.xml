@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="347dp"
+        app:srcCompat="@drawable/seattle_grace" />
+
+    <TextView
+        android:id="@+id/tV_welcome_message"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="4dp"
+        android:textAlignment="textStart"
+        android:textSize="16dp"
+        android:text="@string/welcome_message" />
+    <TextView
+        android:id="@+id/tV_welcome_message2"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="textStart"
+        android:textSize="16dp"
+        android:text="@string/logging_message" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="sendToLogin"
+        android:textColor="@color/white"
+        android:text="@string/login" />
+    <Button
+        android:id="@+id/patientsBtn"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="sendToPatients"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:text="@string/patients"/>
+</LinearLayout>
